@@ -1,0 +1,239 @@
+/*
+===================================================================================
+                                Fonts Start
+=================================================================================== */
+@font-face {
+    font-family: Dela_Gothic_One;
+    src: url(../assets/fonts/Dela_Gothic_One/DelaGothicOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Londrina;
+    src: url(../assets/fonts/Londrina_Solid/LondrinaSolid-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: OleoR;
+    src: url(../assets/fonts/Oleo_Script/OleoScript-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: OleoB;
+    src: url(../assets/fonts/Oleo_Script/OleoScript-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: Eczar;
+    src: url(../assets/fonts/Eczar/Eczar-Bold.ttf) format('truetype');
+}
+.Dela_Gothic_One{
+    position: relative;
+    font-family: Dela_Gothic_One;
+    font-size: 35px;
+    white-space: nowrap;
+    color: #eee;
+}
+.Londrina{
+    position: relative;
+    font-family: Londrina;
+    font-size: 15px;
+    white-space: nowrap;
+    
+}
+.OleoR{
+    position: relative;
+    font-family: OleoR;
+    font-size: 20px;
+    color: #eee;
+}
+
+.OleoB{
+    position: relative;
+    font-family: OleoB;
+    font-size: 30px;
+    color: darkorange;
+}
+
+.Eczar{
+    position: relative;
+    font-family: Eczar;
+    font-size: 20px;
+    color: #FFF;
+    letter-spacing: 0.1rem;
+    white-space: pre-line;
+}
+/*
+===================================================================================
+                                Fonts End
+=================================================================================== */
+/* You can add global styles to this file, and also import other style files */
+
+/*
+===================================================================================
+                                Navbar Start
+=================================================================================== */
+.navbar{
+    background: #000;
+    /* background: linear-gradient(-60deg, rgb(80, 83, 79) 50%, #eee 50%) !important; */
+    /* background: #302a2a !important; */
+}
+.navbar .navbar-brand:hover{
+    color: rgb(236, 240, 30);
+}
+.fa{
+    color:#eee;
+}
+
+.fa:hover{
+    color: rgb(236, 240, 30);
+}
+
+/*
+-----------------------------------------------------------------------------------
+                                Media Screen Start
+----------------------------------------------------------------------------------- */
+@media screen and (max-width:670px) {
+    .Eczar{
+        position: relative;
+        font-family: Eczar;
+        font-size: 10px;
+        color: rgb(80, 83, 79);
+        letter-spacing: 0.1rem;
+    }
+    .fa{
+       font-size: 15px; 
+       color: #000;
+    }
+    
+}
+/* @media screen and (min-width:414px) {
+    .Eczar{
+        position: relative;
+        font-family: Eczar;
+        font-size: 10px;
+        color: rgb(80, 83, 79);
+        letter-spacing: 0.1rem;
+    }
+    .navbar-fixed-top
+    {
+    position: relative;
+    top: auto;
+    }
+    
+} */
+/*
+-----------------------------------------------------------------------------------
+                                Media Screen End
+----------------------------------------------------------------------------------- */
+/*
+===================================================================================
+                                Navbar End
+=================================================================================== */
+
+
+/*
+===================================================================================
+                                Footer Section Start
+=================================================================================== */
+
+/* 
+.center {
+    position: absolute;
+    left: 50%;
+    width: 50px;
+    bottom: 0;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 70%;
+    /* background-color: rgb(0, 255, 191) !important; 
+
+  } */
+
+  .fas:hover{
+      color: rgb(248, 246, 132);
+  }
+
+  .fab:hover{
+    color: rgb(248, 246, 132);
+}
+
+.fas{
+    color: rgb(80, 231, 211);
+}
+
+.fab{
+  color: rgb(80, 231, 211);
+}
+
+/* .Resume{
+    position: relative;
+    text-align-last: center;
+}
+
+.Resume a{
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+.Resume a:hover{
+    color: #FF0000;
+    text-decoration: underline;
+} */
+
+/*
+===================================================================================
+                                Footer Section End
+=================================================================================== */
+.social-icons li a{
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+#social-icons {
+    padding:0;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right:0;
+    z-index: 199;
+  }
+  .social-icons {
+    margin:0;
+    padding:0;
+    list-style:none;
+  }
+  .social-icons li {
+    display: block;
+    margin: 1px 0px;
+  }
+  .social-icons li a {
+    width:50px;
+    height:50px;
+    display:inline-block;
+    line-height:50px;
+    text-align:center;
+    /* background: rgba(255, 255, 255, 0.1); */
+    background: transparent !important;
+    color: rgba(255,255,255,1);
+    font-size:18px;
+  }
+  .social-icons li a:hover {
+    color:#1e1e1e;
+    background: yellow;
+    background-color: rgba(228, 40, 40, 0.1);
+
+    /* background-color: rgb(238, 92, 48); */
+  }
+
+  .social-icons li a {
+    width:25px;
+    height:30px;
+    display:inline-block;
+    line-height:30px;
+    text-align:center;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255,255,255,1);
+    font-size:20px;
+  }
+  .social-icons {
+    margin: 0 auto;
+}

@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~aos/dist/aos.css";
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+   
+    cursor: url("cursor.png"),auto !important;
+}
+
+body :hover{
+    cursor: url("cursor.png"),auto !important;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    /* background-image: linear-gradient(-60deg, rgb(80, 83, 79) 50%, rgb(203, 212, 147) 50%); */
+    background-image: linear-gradient(-60deg, #36454F 50%, #000000 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
