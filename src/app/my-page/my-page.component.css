@@ -640,6 +640,11 @@ text-decoration: none;}
 }
  
 
+#pdes{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+}
+
 .w3-icon-grid1:nth-child(1),
 .w3-icon-grid1:nth-child(2),
 .w3-icon-grid1:nth-child(3) {
