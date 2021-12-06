@@ -499,7 +499,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! A:\Website\MyPortfolioWebsite\node_modules\@angular-devkit\build-angular\src\webpack\es5-polyfills.js */
+      /*! /home/a_007/Documents/Projects/Website/MyPortfolioWebsite/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */
       "voQr");
 
       __webpack_require__(
@@ -507,7 +507,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! A:\Website\MyPortfolioWebsite\src\polyfills.ts */
+      /*! /home/a_007/Documents/Projects/Website/MyPortfolioWebsite/src/polyfills.ts */
       "hN/g");
       /***/
     },

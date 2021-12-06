@@ -87153,9 +87153,9 @@
                 means nothing animates during that delay, but the styles are still renderered. For this
                 to work the original offset values that exist in the original keyframes must be "warped"
                 so that they can take the new keyframe + delay into account.
-                        delay=1000, duration=1000, keyframes = 0 .5 1
-                        turns into
-                        delay=0, duration=2000, keyframes = 0 .33 .66 1
+                       delay=1000, duration=1000, keyframes = 0 .5 1
+                       turns into
+                       delay=0, duration=2000, keyframes = 0 .33 .66 1
                */
               // offsets between 1 ... n -1 are all warped by the keyframe stretch
 
